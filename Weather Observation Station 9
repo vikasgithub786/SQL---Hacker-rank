@@ -1,0 +1,6 @@
+select distinct city from station
+where upper(city) not like 'A%' AND 
+upper(city) not like 'E%' AND 
+upper(city) not like 'I%' AND 
+upper(city) not like 'O%' AND 
+upper(city) not like 'U%'; 
